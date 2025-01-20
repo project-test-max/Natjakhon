@@ -12,13 +12,13 @@ import { Pagination, Autoplay, Navigation } from "swiper/modules";
 const SwiperShowProduct = ({ children }) => {
   return (
     <Swiper
-      slidesPerView={5}
+      slidesPerView={1}
       spaceBetween={10}
       pagination={true}
       navigation={true}
       modules={[Pagination, Autoplay, Navigation]}
       autoplay={{
-        delay: 2500,
+        delay: 500,
         disableOnInteraction: false,
       }}
       breakpoints={{
