@@ -25,7 +25,7 @@ const LoadingToRedirect = () => {
     }
 
     return (
-        <div>No Permission, Redirect in {count}</div>
+        <div></div>
     )
 }
 
